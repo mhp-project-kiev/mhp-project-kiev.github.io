@@ -1,0 +1,308 @@
+*{
+ margin: 0px; padding: 0px;
+}
+body{
+background-color: khaki;
+}
+
+a{
+color: #ffffff;
+text-decoration:none;    
+}
+
+header{
+position: fixed;
+top: 0px;
+width: 100%; /*!!!!!!!!!*/
+padding-bottom: 112px;
+border-bottom: 5px dashed #ff0000;
+border-radius: 0 0 60px 60px;
+height: inherit;
+background-color: #FFFFFF;
+background-image: url(../img/2.png);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+#img{
+    position: absolute;
+top: 5px;
+right: 39px;
+width: 120px;
+height: 100px
+
+
+ 
+}
+
+#img2{
+    position: absolute;
+top: 20px;
+left: 50px;
+width: 300px;
+height: 200px;    
+}
+
+#karp{
+position: inherit;
+right: 20%;
+top: 3%;
+width:174px;
+height: 200px;}
+
+#tel{
+font-size: 17px;
+color: crimson;
+    float: right;
+}
+
+#img3 img{
+    float: left;
+width: 55px;
+height: 57px;
+}
+
+
+#podp{
+margin-bottom: 14px;
+text-align: left;
+padding-top: 5px;
+font-family: cursive;
+font-style: normal;
+font-size: medium;
+color: crimson;
+margin-left: 40px;
+}
+
+#podp4{
+margin-bottom: 9px;
+text-align: center;
+font-family: cursive;
+font-style: normal;
+font-size: smaller;
+color: darkblue;
+}
+
+#podpp1{
+margin-bottom: 9px;
+text-align: center;
+font-family: cursive;
+font-style: italic;
+font-size: 15px;
+color: darkblue;
+}
+
+nav{
+text-align: center;
+background-color: #FF5000;
+list-style: none;
+width: 12em;
+height: inherit;
+position: fixed;
+top: 152px;
+left: 16px;
+padding-top: 24px;
+border-radius: 30px;
+border: 7px solid #fccf00;
+}
+
+nav li ul {	
+list-style: none; 
+width: 200px; 
+
+}
+
+nav li{
+width: 246px;
+height: 65px;
+position: relative;
+list-style: none;
+margin-top: 8px;
+margin-left: -28px;
+font-family: cursive;
+font-style: normal;
+font-size: small;
+
+}
+
+nav li a { display: block; 
+    margin-right: 32px;	
+text-decoration: none; 
+	color: #ffffff; 
+	padding-left: 35px; 
+font-size: medium;
+}
+
+nav ul li ul {
+
+width: 153px;
+}
+
+
+nav ul li ul li {
+height: 60px;
+width: 185px;
+}
+
+
+ul>div.main_menu>li>a:hover,
+ul>div.main_menu>li>ul>div.menu2>li>a:hover,
+ul>div.main_menu>li>ul>div.menu2>li>ul>div.menu3>li:hover
+{
+text-shadow: 7px 10px 10px #ffff00;
+}
+
+
+
+nav li:hover ul {
+display: block;
+}
+
+nav li:hover ul li ul {
+display: none;
+}
+
+nav li ul li ul {
+display: none;
+
+}
+
+nav ul li ul{
+display: none;
+}
+
+nav li ul{
+text-align: center;
+margin-left: 108px;
+margin-top: 20px;
+display: block;
+border-radius: 15px;
+padding-top: 14px;
+border: solid 7px #fccf00;
+background-color: #FF5000; 
+transition-property: background-color;
+transition-duration: 4s; 
+transition-delay: 3s;
+
+	position: absolute; 
+	left: 112px; 
+	top: -48px; 
+	display: block;
+}
+
+
+nav li ul a{ display: block; 
+text-decoration: none; 
+color: #ffffff; 
+font-size: small; 
+}
+
+
+
+nav ul li ul li ul{ 
+wigth:125px;
+position: relative;
+left: 73px;
+top: -59px;
+
+border-left: none;
+radius: 0 30px 30px 0
+
+}
+
+nav ul li ul li ul li{color: #000000;}
+
+
+nav ul li ul li ul li:hover {
+/*text-shadow: 10px 10px 12px #ff0000;*/
+}
+
+nav li ul:hover ul{
+display: block;
+}
+
+aside {
+background-color: #ffffff;
+list-style: none;
+display: block;
+width: 256px;
+height: inherit;
+border-radius: 30px;
+border: 3px solid black;
+position: fixed;
+top: 170px;
+right: 16px;
+}
+
+#podp2{
+text-align: center;
+padding-top: 20px;
+font-family: cursive;
+font-style: normal;
+font-size: large;
+}
+
+article{
+background-color: red;
+border: 5px solid blue;
+}
+
+footer{
+background-color: gainsboro;
+border-radius: 50px 50px 0 0;
+border-top: 5px dashed indigo;
+position: absolute;
+bottom: 0px;
+width: 100%;
+padding-top: 18px;
+margin-top:15px;
+height: 56px;
+
+}
+
+#podp3{
+text-align: center;
+padding-top: 5px;
+font-family: cursive;
+font-style: normal;
+font-size: large;
+}
+
+
+
+
+li:hover{
+display: block;
+}
+
+
+nav li:hover{ display: block; }
+
+nav li ul li, {
+display: none;
+background-color: #ff0000;
+}
+.menu2 li:hover ul{
+display: block;}
+
+
+
+
+
+
+
+   #link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+   }
+
+#link1 {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+   }
+
+

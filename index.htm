@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8"> 
+<meta name="description" content="Man's Hand Power"> 
+<meta name="keywords" content="HTML5, CSS3, JavaScript"> 
+<title>Массаж</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+<header>
+<img id="img" src="img/1.jpg">
+<img id="img2" src="">
+<div id="podp"><h1>Man's Hand Power</h1></div>
+<div id="podp4"><h2>Мы решим проблему каждого</h2></div>
+<div id="podpp1"><h2>Предоставляем услуги качественного реабилитационного массажа</h2></div>
+<div id="karp">
+<div id="tel">
+	(099) 936 50 44<br>
+        (093) 936 50 44<br>
+        (067) 936 50 44<br>
+</div>
+<div id="img3"><img src="img/tel2.png"></div>
+</div>
+</header>
+<nav>
+<ul>
+<div class="main_menu"><li><a href="default.htm">Головна</a></li></div>
+<div class="main_menu"><li><a href="default.htm" target="section">Види послуг</a>
+
+<ul>
+<div class="menu2">
+<li><a href="default.htm">Для Клієнтів</a>
+<ul><div class="menu3">
+<li>Послуги масажу</li>
+<li>Ваші відгуки та пропозиції</li>
+</div></ul>
+</li>
+<li><a href="default.htm">Для партнерів</a>
+<ul><div class="menu3">
+<li>Умови співпраці</li>
+</div></ul></li>
+<li><a href="default.htm">1</a>
+<ul><div class="menu3">
+<li>nVidia</li>
+<li>ATI Radeon</li>
+</div></ul>
+</li>
+<li><a href="default.htm">ОЗП</a>
+<ul><div class="menu3">
+<li>DDR2</li>
+<li>DDR3</li>
+</div></ul>
+</li>
+<li><a href="default.htm">Накопичувачі</a>
+<ul><div class="menu3">
+<li>HDD</li>
+<li>SSD</li>
+<li>USB</li>
+</div></ul>
+</li>
+
+<li><a href="default.htm">Монітори</a>
+<ul><div class="menu3">
+<li>Samsung</li>
+</div></ul>
+</li>
+</li>
+</div></ul></div>
+<div class="main_menu"><li><a href="html/pidtrymka.htm" target="article">Служба підтримки</a></li></div>
+<div class="main_menu"><li><a href="default.htm">Контакти</a></li></div>
+</ul></nav>
+
+<section>
+<article name="article"></article>
+</section>
+<aside>
+
+<div id="podp2">
+<p align="center">Для постійних клієнтів</p>
+ <script>
+   function showForm() {
+    document.getElementById("auth").hidden = false;
+    document.getElementById("link").hidden = true;
+document.getElementById("auth1").hidden = true;
+    document.getElementById("link1").hidden = false;
+   }
+function showForm1() {
+    document.getElementById("auth1").hidden = false;
+    document.getElementById("link1").hidden = true;
+    document.getElementById("auth").hidden = true;
+    document.getElementById("link").hidden = false;
+   }
+ function initiate(){
+ age=document.getElementById("myage");
+ age.addEventListener("change", changerange, false);
+ document.information.addEventListener("invalid", validation, true);
+ document.getElementById("send").addEventListener("click", sendit, false);
+ document.information.addEventListener("input", checkval, false);
+ }
+ function changerange(){
+ var output=document.getElementById("range");
+ var calc=age.value-21;
+ if(calc<21){
+ calc=18;
+ age.value=21;
+ }
+ output.innerHTML=calc+' to '+age.value;
+ }
+ function validation(e){
+ var elem=e.target;
+ elem.style.background='#FFDDDD';
+ }
+ function sendit(){
+ var valid=document.information.checkValidity();
+ if(valid){
+ document.information.submit();
+ }
+ }
+ function checkval(e){
+ var elem=e.target;
+ if(elem.validity.valid){
+ elem.style.background='#FFFFFF';
+ }
+else{
+ elem.style.background='#FFDDDD';
+ }
+ }
+ window.addEventListener("load", initiate, false);  
+  </script>
+
+  <p id="link" onclick="showForm()">Авторизация на сайте</p>
+  <form id="auth" hidden>
+   <p><label>Логин: <input name="user" required></label></p>
+   <p><label>Пароль: <input name="pass" type="password" required></label></p>
+   <p><input type="submit" value="Войти"></p>
+  </form> 
+
+
+ 
+
+<p id="link1" onclick="showForm1()">Реєстрація на сайті</p>
+  <form id="auth1" hidden>
+ <form name="information" method="get">
+ Имя: <input pattern="[A-Za-z]{3,}" name="nickname" id="nickname" maxlength="10" required>
+ Email: <input type="email" name="myemail" id="myemail" required>
+ Возрастной диапазон: <input type="range" name="myage" id="myage" min="0" max="80" step="10"
+value="21">
+ <output id="range">от 18 до 21</output>
+ <input type="button" id="send" value="Зареєструватися">
+ </form>
+
+
+
+</aside>
+</section>
+
+
+</body>
+<footer>
+<div id="podp3">Відповідальні за промоушен: Пірогов М.В. та Анісімов Е.Д.</div>
+</footer>
+
+</html>
