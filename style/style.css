@@ -14,15 +14,11 @@ header{
 position: fixed;
 top: 0px;
 width: 100%; /*!!!!!!!!!*/
-padding-bottom: 112px;
+padding-bottom: 75px;
 border-bottom: 5px dashed #ff0000;
 border-radius: 0 0 60px 60px;
 height: inherit;
 background-color: #FFFFFF;
-background-image: url(../img/2.png);
-background-position: center bottom;
-background-repeat: no-repeat;
-background-size: contain;
 }
 
 
@@ -38,11 +34,11 @@ height: 100px
 }
 
 #img2{
-    position: absolute;
-top: 20px;
-left: 50px;
-width: 300px;
-height: 200px;    
+position: absolute;
+top: 8px;
+left: 36px;
+width: 320px;
+height: 220px;
 }
 
 #karp{
@@ -66,18 +62,17 @@ height: 57px;
 
 
 #podp{
-margin-bottom: 14px;
-text-align: left;
-padding-top: 5px;
+margin-bottom: 29px;
+text-align: center;
+padding-top: 36px;
 font-family: cursive;
 font-style: normal;
 font-size: medium;
 color: crimson;
-margin-left: 40px;
 }
 
 #podp4{
-margin-bottom: 9px;
+margin-bottom: -56px;
 text-align: center;
 font-family: cursive;
 font-style: normal;
@@ -92,6 +87,7 @@ font-family: cursive;
 font-style: italic;
 font-size: 15px;
 color: darkblue;
+margin-top: 170px;
 }
 
 nav{
@@ -101,7 +97,7 @@ list-style: none;
 width: 12em;
 height: inherit;
 position: fixed;
-top: 152px;
+top: 277px;
 left: 16px;
 padding-top: 24px;
 border-radius: 30px;
@@ -232,7 +228,7 @@ height: inherit;
 border-radius: 30px;
 border: 3px solid black;
 position: fixed;
-top: 170px;
+top: 282px;
 right: 16px;
 }
 
